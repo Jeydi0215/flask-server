@@ -13,6 +13,7 @@ warnings.filterwarnings("ignore", category=UserWarning, message="No training con
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
+
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=2)  # Allow detection of 2 hands
 classifier = Classifier("Model/keras_model.h5", "Model/labels.txt")
