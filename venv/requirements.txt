@@ -24,6 +24,7 @@ comm==0.1.4
 contourpy==1.2.0
 cvzone==1.6.1
 cycler==0.12.1
+cython==0.29.21
 debugpy==1.8.0
 decorator==5.1.1
 defusedxml==0.7.1
