@@ -1,2 +1,5 @@
 build-essential
 libatlas-base-dev
+gfortran
+libblas-dev
+liblapack-dev
